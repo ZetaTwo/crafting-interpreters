@@ -8,4 +8,9 @@ edition = "2018"
 
 [dependencies]
 exitcode = "1.1.2"
+strum_macros = "0.22"
+
+[strum]
+strum = "0.22"
+features = ["derive"]
 
